@@ -6,10 +6,14 @@ const SignIn = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  //Login/Signin component
   const signIn = (e) => {
     e.preventDefault();
+
+
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
+        //If login successfull
         console.log(userCredential);
       })
       .catch((error) => {
@@ -17,6 +21,8 @@ const SignIn = () => {
       });
   };
 
+
+  //Render 
   return (
     <div className="sign-in-container">
       <form onSubmit={signIn}>

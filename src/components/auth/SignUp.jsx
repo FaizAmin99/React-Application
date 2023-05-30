@@ -17,6 +17,8 @@ const SignUp = () => {
       });
   };
 
+  
+//Render =  Return the elements
   return (
     <div className="sign-in-container">
       <form onSubmit={signUp}>
