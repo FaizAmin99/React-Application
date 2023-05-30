@@ -8,9 +8,6 @@ import Dashboard from "./components/Dashboard";
 import AddFingerprint from "./components/AddFingerprint";
 import TimeIn from "./components/TimeIn";
 import ViewHistory from "./components/ViewHistory";
-//import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-//import {Router, Switch, Route } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 
