@@ -17,7 +17,6 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-d
 
 function App() {
   return (
-
     
       <div className="App">
       <SignIn />
@@ -27,9 +26,9 @@ function App() {
 <Router>
       <Switch>
           <Route exact path="/dashboard" component={Dashboard} />
-          <Route exact path="/addfingerprint" component={AddFingerprint} />
-          <Route exact path="/timein" component={TimeIn} />
-          <Route exact path="/viewhistory" component={ViewHistory} />
+          <Route exact path="/dashboard/addfingerprint" component={AddFingerprint} />
+          <Route exact path="/dashboard/timein" component={TimeIn} />
+          <Route exact path="/dashboard/viewhistory" component={ViewHistory} />
           </Switch>
     </Router>
 
